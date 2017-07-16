@@ -40,8 +40,8 @@ public class Model {
     public static final int POS_FONDO_A = 10;
 
     // Expresiones Regulares
-    public static final String ER_TEXTO = "\\wáéíóúÁÉÍóÚüÜñÑ +";
-    public static final String ER_FAMILIA = "\\wáéíóúÁÉÍóÚüÜñÑ +";
+    public static final String ER_TEXTO = "[\\wáéíóúÁÉÍÓÚüÜñÑ ]+";
+    public static final String ER_FAMILIA = "[\\wáéíóúÁÉÍÓÚüÜñÑ ]+";
     public static final String ER_NEGRITA = "false|true";
     public static final String ER_CURSIVA = "false|true";
     public static final String ER_TALLA = "0|[1-9]\\d?|100";
